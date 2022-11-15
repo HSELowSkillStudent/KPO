@@ -1,0 +1,4 @@
+Abi M-O;10
+Anton;10
+Artem;-1
+Stas;-1
