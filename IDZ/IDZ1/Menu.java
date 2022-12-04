@@ -14,8 +14,8 @@ public class Menu {
             int mode = start();
             Session session;
             if (mode == 1) {
-                boolean players_step_first = true;
-                // players_step_first = random.nextInt(2) == 0;
+                boolean players_step_first;
+                players_step_first = random.nextInt(2) == 0;
                 session = new Session(players_step_first, !players_step_first, pickDifficulty());
                 addPlayersResult(session.startGame());
             } else if (mode == 2) {
