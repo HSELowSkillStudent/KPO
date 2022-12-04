@@ -72,7 +72,6 @@ final public class Constants {
 
     // Constants for ComputerPlayer
     static String COMPUTER_NAME1 = "Computer 1";
-    static String COMPUTER_NAME2 = "Computer 2";
 
     // Constants for Session
     static final String UNDO = "-undo";
@@ -90,7 +89,6 @@ final public class Constants {
     static final String DISPLAY_WINNER_PART_2 = "(";
     static final String DISPLAY_WINNER_PART_3 = " color) defeated the player ";
     static final String DISPLAY_WINNER_PART_4 = "(";
-    // static final String DISPLAY_WINNER_PART_5 = " color)";
     static final String DISPLAY_WINNER_PART_5 = " color) with the score ";
     static final String DISPLAY_WINNER_PART_6 = ":";
 
