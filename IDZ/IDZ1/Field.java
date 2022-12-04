@@ -267,7 +267,9 @@ public class Field {
         // Выводим буквы
         printString(SPACE);
         for (char i = 0; i < field_size_x; i++) {
+            printString(SPACE);
             formatIntToChar('A' + i);
+            printString(SPACE);
         }
         newLine();
         // System.out.println();
