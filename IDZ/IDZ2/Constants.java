@@ -15,7 +15,8 @@ public class Constants {
     public final static String RING_DEPENDENCY_DISCOVERED_M2 = " got into a loop";
     public final static String HIERARCHY = "FILES HIERARCHY";
     public final static String CONTENT = "FILES CONTENT";
-    public final static String ENTER_THE_PATH = "Enter the full path to the start folder:";
+    public final static String ENTER_THE_PATH = "Enter the full path to the start folder or enter \"this\" to " +
+            "start with the folder with the executable file:";
     public final static String SLASH = "/";
     public final static String NEW_LINE = "\n";
     public final static String SPACE = " ";
