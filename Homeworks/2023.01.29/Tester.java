@@ -25,9 +25,6 @@ public class Tester {
             throw new RuntimeException(test + " generate actual product exception");
         }
 
-//         System.out.println(actualProduct);
-//         System.out.println(expectedProduct);
-
         if (!expectedProduct.equals(actualProduct)) {
             throw new RuntimeException(test + " Exception");
         }
