@@ -1,3 +1,3 @@
 Использованы следующие паттерны:
-* Мост (Devices/Device, Devices/Tv, Devices/Radio)
-* Абстрактная фабрика (Factories/AbstractFactory, Factories/LGFactory, Factories/SamsungFactory)
+* Мост (Devices/Device.java, Devices/TV.java, Devices/Radio.java)
+* Абстрактная фабрика (Factories/AbstractFactory.java, Factories/LGFactory.java, Factories/SamsungFactory.java)
