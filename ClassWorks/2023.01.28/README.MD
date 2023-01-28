@@ -1,3 +1,3 @@
 Использованы следующие паттерны:
-* Мост
-* Абстрактная фабрика
+* Мост (Devices/Device, Devices/Tv, Devices/Radio)
+* Абстрактная фабрика (Factories/AbstractFactory, Factories/LGFactory, Factories/SamsungFactory)
