@@ -14,11 +14,7 @@ public class Adapter {
     public static ArrayList<Integer> converterStringToInt(ArrayList<String> stringList) {
         ArrayList<Integer> intList = new ArrayList<>();
         for (String s : stringList) {
-            try {
-                intList.add(findIntInString(s));
-            } catch (NumberFormatException e) {
-                intList.add(0);
-            }
+            intList.add(findIntInString(s));
         }
         return intList;
     }
