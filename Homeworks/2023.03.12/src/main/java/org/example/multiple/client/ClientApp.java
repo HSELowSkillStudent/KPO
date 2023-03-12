@@ -27,7 +27,10 @@ public class ClientApp {
         System.out.println("Please, enter your age: ");
         int age = scanner.nextInt();
         Database.addUser(DATABASE_FILE_NAME, username, age);
-
+        
+        if (age <= 0) {
+            System.out.println("Incorrect format");
+        }
 
         if (age < 18) {
             addToServer(PORT_FOR_KIDS, username, age, "Welcome to the kids chat, " + username + "!");
