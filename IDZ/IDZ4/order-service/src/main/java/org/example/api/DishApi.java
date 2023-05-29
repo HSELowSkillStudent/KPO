@@ -29,7 +29,7 @@ public interface DishApi {
      * Delete dish
      * @param token JWT token
      * @param requestDto dish dto
-     * @return
+     * @return message
      */
     @PostMapping("/deleteDish")
     ResponseEntity<?> deleteDish(@RequestHeader("Authorization") String token,
